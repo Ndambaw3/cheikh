@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color:orange;
+    height: 50;
+    margin: 10px;
+    width: 100%;
+
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    height: 100%;
+   
+
+}
+ul li a{
+    color:whitesmoke;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color:hsl(44, 82%, 50%) ;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+
+}
+.menu li a{
+    text-decoration: none;
+   
+}
+.icon{
+    list-style-type: none;
+    display:inline-block;
+}
+
+form{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search" ]{
+    font-size: 17px;
+}
+.icon{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}
+.footer{
+    margin:0px;
+    padding: 75px 0;
+    background-color:orange;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500px;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #ffffff;
+    display: block;
+
+}
+
+
